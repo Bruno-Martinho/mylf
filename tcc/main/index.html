@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <script>
+        tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'dark-blue': '#002c49',
+            'light-blue': '#003E63',
+          }
+        }
+      }
+    }
+        </script>
+</head>
+
+<body>
+    <div class="w-80 h-80 bg-dark-blue absolute top-0 -left-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div> 
+
+    <div class="w-80 h-80 bg-dark-blue absolute bottom-10 -right-5 -z-10 blur-2xl opacity-30 overflow-hidden rounded-full"></div> 
+
+    <div class="min-h-screen bg-center bg-cover px-28 py-5">
+        <nav class="flex items-center bg-light-blue rounded-xl">
+            <img src="logo.png" class="w-20 py-3 cursor-pointer">
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5">
+                    <a href="#" class="no-underline text-gray-300 hover:bg-dark-blue rounded-3xl px-2">asdasd</a>
+                </li>
+                <li class="list-none inline-block px-5">
+                    <a href="#" class="no-underline text-gray-300 hover:bg-dark-blue rounded-3xl px-2">asdasd</a>
+                </li>
+                <li class="list-none inline-block px-5">
+                    <a href="#" class="no-underline text-gray-300 hover:bg-dark-blue rounded-3xl px-2">asdasd</a>
+                </li>
+                <li class="list-none inline-block px-5">
+                    <a href="#" class="no-underline text-gray-300 hover:bg-dark-blue rounded-3xl px-2">Projetocomida</a>
+                </li>
+            </ul>
+            <img src="personal.png" class=" w-15 pr-5 cursor-pointer">
+        </nav>
+        <div class="text-black mt-48">
+            <h1 class="text-6xl font-semibold leading-tight">Demzer<br>Perfeito para a escola</h1>
+            <p class="font-semibold">Um site facil para se utilizar, facilitando sua vida escolar como nunca!</p>
+        </div>
+        
+    </div>
+
+</body>
+</html>
